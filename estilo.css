@@ -48,7 +48,7 @@ p{
    text-align: left;
 }
 
-#musica p{
+#musica p, #musica h2{
 	margin-left: 12px;
 }
 
@@ -61,6 +61,7 @@ p{
    color: #004a79;
    padding: 1px;
    box-sizing: border-box;
+   margin-bottom: 25px;
 }
 
 
@@ -80,4 +81,8 @@ p{
 #hoje img{
    width: 112px;
    height: 112px; 
+}
+
+img[src="images/person.png"]+ p{
+	margin-bottom: 0px;
 }
