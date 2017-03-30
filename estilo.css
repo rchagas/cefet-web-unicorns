@@ -48,6 +48,15 @@ p{
    text-align: left;
 }
 
+#musica p{
+	white-space: pre-line;
+	margin: 0;
+}
+
+#musica > p:nth-child(11){
+	margin-bottom: 5px;
+}
+
 #musica p, #musica h2{
 	margin-left: 12px;
 }
@@ -59,7 +68,7 @@ p{
 .destacado{
    background-color:#c4caf3;
    color: #004a79;
-   padding: 1px;
+   padding-bottom: 10px;
    box-sizing: border-box;
    margin-bottom: 25px;
 }
